@@ -83,7 +83,7 @@ ga_domain:                # 默认的是 auto, 这里我是自定义了的域名
 
 # Featured Tags
 featured-tags: true                     # 是否使用首页标签
-featured-condition-size: 1              # 相同标签数量大于这个数，才会出现在首页
+featured-condition-size: 0              # 相同标签数量大于这个数，才会出现在首页
 
 
 
@@ -96,11 +96,11 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "WP",
-        href: "https://wangpei.ink"
+        title: "CSDN",
+        href: "https://www.csdn.net/"
     },{
-        title: "简书",
-        href: "http://www.jianshu.com/u/e71990ada2fd"
+        title: "IT之家",
+        href: "https://www.ithome.com/"
     },{
         title: "Apple",
         href: "https://apple.com"
