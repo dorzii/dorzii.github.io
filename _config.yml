@@ -2,7 +2,7 @@
 title: Dorzii's Blog
 SEOTitle: DORZII
 header-img: img/post-bg-desk.jpg
-email: 暂无
+email: 969235609@qq.com
 description: "记录学习"
 keyword: "我的博客"
 url: "http://dorzii.github.io"          # your host, for absolute URL
@@ -18,12 +18,12 @@ sidebar-avatar: /img/avatar_binggan.jpg      # use absolute URL, seeing it's use
 
 # SNS settings
 RSS: false
-# weibo_username:     暂无
-zhihu_username:     暂无
+weibo_username:     暂无
+zhihu_username:     xx
 github_username:    暂无
 facebook_username:  暂无
 jianshu_username:   暂无
-#twitter_username:   暂无
+twitter_username:   暂无
 
 
 
@@ -99,7 +99,7 @@ friends: [
         title: "WP",
         href: "https://wangpei.ink"
     },{
-        title: "简书·BY",
+        title: "简书",
         href: "http://www.jianshu.com/u/e71990ada2fd"
     },{
         title: "Apple",
