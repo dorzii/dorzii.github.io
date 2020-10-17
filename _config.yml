@@ -1,7 +1,7 @@
 # Site settings
 title: Dorzii's Blog
 SEOTitle: DORZII
-header-img: img/post-bg-desk.jpg
+header-img: img/IMG_4142.jpg
 email: 969235609@qq.com
 description: "记录学习"
 keyword: "我的博客"
@@ -12,7 +12,7 @@ github_repo: "https://github.com/dorzii/dorzii.github.io.git" # you code reposit
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "苟利国家生死以，岂因祸福避趋之~"
-sidebar-avatar: /img/avatar_binggan.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/icon.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
