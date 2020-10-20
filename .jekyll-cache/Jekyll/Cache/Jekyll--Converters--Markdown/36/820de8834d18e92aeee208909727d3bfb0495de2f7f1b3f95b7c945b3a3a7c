@@ -1,5 +1,4 @@
-I"0<h1 id="逻辑回归logistic-regression">逻辑回归(Logistic Regression)</h1>
-
+I"p
 <p>(啊这，第一篇博客就从逻辑回归开始吧)</p>
 
 <p>逻辑回归是机器学习中较为基础的线性分类算法，多用于二分类问题，主要就是线性平面套了一层$Sigmoid$函数的壳，使得输出概率为[0，1]，从而表示出样本处于正类的概率。</p>
@@ -9,15 +8,14 @@
 <p>对于线性可分的样本空间$D$，$D={(x_1,y_1),(x_2,y_2),\cdots,(x_N,y_N)},x_i \in R^n,y_i\in{0,1}$，决策边界为$w^T+b=0$，假设某个样本点$h_w(x)=w^T+b&gt;0$则认为其属于正类,下图以二分类为例:</p>
 
 <p>然而此时$h_w(x)=w^T+b$是连续的，最终的预测结果是离散变量，考虑到概率也是一种离散值，可以将$h_w(x)$往概率上转换，再设定概率的阈值从而使连续值变为离散值。
-逻辑回归的做法是给$h_w(x)$套上一层$Sigmoid$函数:</p>
-
-\[P(Y=1|x)=sigmoid(h_w(x))= \frac{1}{1+e^{-(w^Tx+b）}}\]
+逻辑回归的做法是给$h_w(x)$套上一层$Sigmoid$函数:
+\(P(Y=1|x)=sigmoid(h_w(x))= \frac{1}{1+e^{-(w^Tx+b）}}\)</p>
 
 <table>
   <tbody>
     <tr>
-      <td>若$h_w(x)\rightarrow+\infty$，$P(Y=1</td>
-      <td>x)\rightarrow1$，$h_w(x)\rightarrow-\infty$，$P(Y=1</td>
+      <td>若$h_w(x)\rightarrow+\infty，P(Y=1</td>
+      <td>x)\rightarrow1，h_w(x)\rightarrow-\infty$，$P(Y=1</td>
       <td>x)\rightarrow0$，此时可估计样本所属类别的概率。</td>
     </tr>
   </tbody>
@@ -29,15 +27,7 @@
 
 <p>设：</p>
 
-<table>
-  <tbody>
-    <tr>
-      <td>$$P(Y=1</td>
-      <td>x)=p(x)\(，\)P(Y=0</td>
-      <td>x)=1-p(x)$$</td>
-    </tr>
-  </tbody>
-</table>
+\[P(Y=1|x)=p(x)，P(Y=0|x)=1-p(x)\]
 
 <p>则似然函数为：</p>
 
