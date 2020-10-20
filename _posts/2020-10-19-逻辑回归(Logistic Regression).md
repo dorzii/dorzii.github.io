@@ -47,7 +47,7 @@ lnL(w)&=\sum\limits_{i=1}^{N}{y_iln{p(x_i)}+{(1-y_i)ln{(1-p(x_i))}}}\\
 &=\sum\limits_{i=1}^{N}{y_iln\frac{p(x_i)}{1-p(x_i)}+ln(1-p(x_i))}\\
 &=\sum\limits_{i=1}^{N}{y_i(w^Tx_i+b)-ln(1+e^{w^Tx_i+b})}\end{aligned}$$
 
-事实上为了方便可以将权值向量与输入向量进行扩充，$w=(w^{(0)},w^{(1)},\dots,w^{(n)},b)^T\\$，$w=(x^{(0)},x^{(1)},\dots,x^{(n)},1)$则上式简化为：
+事实上为了方便可以将权值向量与输入向量进行扩充，$w=(w^{(0)},w^{(1)},\dots,w^{(n)},b)^T，x=(x^{(0)},x^{(1)},\dots,x^{(n)},1)$则上式简化为：
 
 $$lnL(w)=\sum\limits_{i=1}^{N}{y_i(w^Tx_i)-ln(1+e^{w^Tx_i})}$$
 
