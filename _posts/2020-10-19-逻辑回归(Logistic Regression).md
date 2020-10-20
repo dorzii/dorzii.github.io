@@ -8,7 +8,7 @@ header-img: img/post-bg-swift2.jpg
 catalog: true
 tags:
     - 机器学习
-	- 分类问题
+    - 分类问题
 ---
 
 # 逻辑回归(Logistic Regression)
