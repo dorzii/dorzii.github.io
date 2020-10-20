@@ -26,7 +26,7 @@ tags:
 
 $$P(Y=1|x)=sigmoid(h_w(x))= \frac{1}{1+e^{-(w^Tx+b）}}$$
 
-若${h_w(x)\rightarrow+\infty}，{P(Y=1|x)\rightarrow1}，{h_w(x)\rightarrow-\infty}，{P(Y=1|x)\rightarrow0}$，此时可估计样本所属类别的概率。
+若${h_w(x)\rightarrow+\infty}$，${P(Y=1|x)\rightarrow1}$，${h_w(x)\rightarrow-\infty}$，${P(Y=1|x)\rightarrow0}$，此时可估计样本所属类别的概率。
 
 ## 损失函数
 
